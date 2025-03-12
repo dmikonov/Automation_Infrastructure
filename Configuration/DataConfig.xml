@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- Timeout -->
+    <TimeOut>5</TimeOut>
+
+    <!-- Authorization -->
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <url>https://www.saucedemo.com/</url>
+    <ImageRepo>C:\\Automation\\FinalProject\\ImageRepository\\</ImageRepo>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>C:\Automation\FinalProject\DDTFiles\users.csv</DDTFile>
+
+    <!-- Mobile -->
+    <UDID>1ddbf68f</UDID>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!-- API -->
+    <urlAPI>http://localhost:3000</urlAPI>
+
+    <!-- Electron -->
+    <ElectronDriverPath>C:\Automation\FinalProject\Drivers\electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:\\Users\dmitrii.nikonov\AppData\Local\Programs\todolist\Todolist.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <WindowsDriver>http://127.0.0.1:4723/</WindowsDriver>
+
+    <!-- DataBase -->
+    <DBURL>jdbc:sqlite:C:\Automation\FinalProject\DB\DBFinalProject.db</DBURL>
+</Environment>

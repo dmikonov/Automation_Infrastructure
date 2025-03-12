@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebSuite" parallel="none">
+    <test name="Mobile Tests">
+        <parameter name="PlatformName" value="mobile"/>
+<!--        <packages>-->
+<!--            <package name="sanity"></package>-->
+<!--        </packages>-->
+        <classes>
+            <class name="sanity.MortgageMobile">
+<!--                <methods>-->
+<!--                    <include name="test01_verifyHeader"/>-->
+<!--                    <exclude name="test02_verifyCart"/>-->
+<!--                </methods>-->
+            </class>
+<!--            <class name="sanity.SauceDemoWebDB"></class>-->
+<!--            <class name="sanity.GrafanaApi"></class>-->
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,1 @@
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:9090/","buildOrder":5,"buildName":"Sanity Test Desktop #5","buildUrl":"http://localhost:9090/job/Sanity%20Test%20Desktop/5/","reportName":"AllureReport","reportUrl":"http://localhost:9090/job/Sanity%20Test%20Desktop/5/allure"}]
